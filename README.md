@@ -4,7 +4,7 @@ To backup, from a local directory to a s3 bucket, enter the following command:
 
 `python backup.py backup local-directory bucket-name::folderName`
  
-The local directory must be the entire path to folder or file directory from root. A . can also be inputted for the local-directory and all the files in the current directory will be uploaded to the cloud.
+The local directory must be the entire path to folder or file directory from root. A "." can also be inputted for the local-directory and all the files in the current directory will be uploaded to the cloud.
  
 To restore files from a s3 bucket, enter the following command:
 
